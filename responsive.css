@@ -20,10 +20,11 @@
         left: 0px;
     }
     .landing-hero-search {
-        width: 276px !important;
+        width: 100% !important;
     }
+ 
     .landing-hero-body-div1 h2 {
-        width: 290px;
+        width: 100% !important;
     }
     .landing-hero-body-div1 h2 {
         font-size: 30px !important;
@@ -44,6 +45,7 @@
     }
     .landing-hero-organic-center-div2 {
         height: 100%;
+        padding:10px;
     }
     .landing-hero-organic-center-div3 {
         width: 320px !important;
@@ -111,6 +113,71 @@
     }
     .broker-footer {
         font-size: 10px;
+    }
+    .landing-desktop-right-button button {
+        width: 100%;
+    }
+    .landing-desktop-right-box-div-content h3 {
+        font-size: 20px;
+    }
+    .landing-desktop-right-box-div-content p {
+        font-size: 10px;
+    }
+    .landing-house-hunt-left-box-div-icon {
+        width: 103px;
+    }
+    .landing-house-hunt-right2 {
+        margin-top: 20px;
+    }
+    .landing-house-expert-div1-button{
+        width: 100% !important;
+    }
+    .landing-house-expert-div1-button button {
+        width: 100%;
+    }
+    .landing-house-expert-div1-content{
+        width: 80%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .landing-chooseus .landing-chooseus-div-img1 {
+        position: absolute;
+        top: 10% !important;
+        width: 210px !important;
+        height: 260px;
+        left: 50%;
+    }
+    .landing-chooseus .landing-chooseus-div-img2 {
+        position: absolute;
+        top: 17% !important;
+        width: 115px !important;
+        height: 150px;
+    }
+    .landing-chooseus .landing-chooseus-div-img3 {
+        position: absolute;
+        top: 21% !important;
+        width: 130px !important;
+        height: 86px;
+    }
+    .card-text h5{
+        font-weight: 700;
+        margin-top: 10px;
+    }
+    .usecase h2 {
+        font-size: 16px !important;
+        font-weight: 700 !important;
+    }
+    .usecase-header button {
+        width: 50% !important;
+    }
+    .usecase .card{
+        width: 215px !important;
+    }
+    .card-title{
+        font-size: 12px !important;
+    }
+    .landing-touch-box{
+        text-align: center;
     }
 }
 @media (max-width:1024px) {
@@ -243,7 +310,7 @@
     }
     .landing-chooseus .landing-chooseus-div-img1 {
         position: absolute;
-        top: 2% !important;
+        top: 2% ;
     }
     .landing-chooseus-div-img2 {
         position: absolute;
@@ -252,7 +319,7 @@
     } 
     .landing-chooseus .landing-chooseus-div-img3 {
         position: absolute;
-        top: 19% !important;
+        top: 19% ;
         left: 69%;
     }
     .landing-chooseus-div1 {
@@ -262,6 +329,20 @@
     .landing-data {
         margin-block: 100px;
     }
+    .landing-data-div{
+        height: 150px;
+    }
+    .landing-data-div h2 {
+        font-size: 20px;
+    }
+    .landing-data-div h4{
+        font-size: 16px;
+    }
+    .tab-container {
+        height: 55px;
+    }
+   
+
 .footer-body-div {
     width: 100%;
     display: grid;
@@ -371,7 +452,7 @@
     }
     .landing-chooseus .landing-chooseus-div-img2 {
         position: absolute;
-        top: 9% !important;
+        top: 9% ;
         width: 140px;
         height: 171px;
     }
@@ -385,7 +466,7 @@
     }
     .landing-chooseus .landing-chooseus-div-img3 {
         position: absolute;
-        top: 13% !important;
+        top: 13% ;
         left: 71%;
     }
     .landing-chooseus .landing-chooseus-div-img3 {

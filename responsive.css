@@ -548,6 +548,13 @@
     .landing-hero-search {
         width: 100% !important;
     }
+    .landing-hero-organic-left {
+        width: 100% !important;
+        margin: 7px;
+    }
+    .landing-hero-organic-center-div1 {
+        width: 100%;
+    }
     .landing-hero-body-div1 h2{
         width: 100% !important;
         font-size: 35px !important;
@@ -575,5 +582,25 @@
     .landing-house-expert-div1-content {
         left: 50%;
         transform: translateX(-50%);
+    }
+    .landing-hero-organic-right-box{
+        margin-left: 7px;
+    }
+    .landing-data-div {
+        height: 150px;
+        margin-bottom: 10px;
+    }
+    .tab-container button {
+        
+        padding: 3px 6px;
+    }
+    .broker-footer {
+        font-size: 12px;
+    }    
+    .logo-slider {
+        margin-left: 7px;
+    }
+    .logo-track img {
+        height: 25px;
     }
 }

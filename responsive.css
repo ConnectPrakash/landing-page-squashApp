@@ -542,3 +542,9 @@
         width: 100%;
     }
 }
+
+@media (max-width:376px) {
+    .landing-hero-search {
+        width: 100% !important;
+    }
+}

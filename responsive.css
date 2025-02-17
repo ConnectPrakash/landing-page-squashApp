@@ -1,0 +1,463 @@
+@media (max-width:321px) {
+    .header-img {
+        width: 143px;
+    }
+    .navbar {
+        padding-inline: 20px;
+    }
+    .navbar-collapse{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .landing-house-expert-div1-box {
+        width: 100% !important;
+    }
+    .landing-house-expert-div1-content {
+        position: absolute;
+        bottom: 10px;
+        left: 0px;
+    }
+    .landing-hero-search {
+        width: 276px !important;
+    }
+    .landing-hero-body-div1 h2 {
+        width: 290px;
+    }
+    .landing-hero-body-div1 h2 {
+        font-size: 30px !important;
+    }
+    .landing-hero-body-div1 .content {
+        width: 270px !important;
+    }
+   
+    .landing-hero-organic {
+        margin-block: 50px;
+    }
+    .landing-hero-organic-left-img {
+        height: 280px;
+    }
+    .landing-hero-body-div2 img {
+        width: 280px !important;
+        height: 430px !important;
+    }
+    .landing-hero-organic-center-div2 {
+        height: 100%;
+    }
+    .landing-hero-organic-center-div3 {
+        width: 320px !important;
+    }
+    .landing-house-hunt-left-box {
+        width:100% !important;
+    }
+    .landing-house-hunt-right {
+        margin-top: 20px;
+        width: 100% !important;
+    }
+    .landing-house-hunt-right-box {
+        width: 80%;
+        transform: translate(0px, -30px) !important;
+    }
+    .landing-house-hunt-right-button {
+        margin: 75px 4px !important;
+    }
+    .landing-desktop-left {
+        width: 124%;
+        height: fit-content;
+    }
+    .landing-desktop-right {
+        margin-left: 0px;
+    }
+    .landing-desktop-right-box {
+        width: 360px;
+    }
+    .landing-desktop-right-box-div {
+        width: 100%;
+    }
+    .landing-desktop-right-heading {
+        width: 328px;
+        font-size: 35px;
+    }
+    .landing-desktop-right-para {
+        font-size: 16px;
+        font-weight: 600;
+        width: 302px;
+    }
+    .landing-desktop-right-button {
+        width: 309px;
+    }
+    .tab-container button {
+        font-size: 8px !important;
+        padding: 5px 5px;
+    }
+    .icon{
+        margin: auto;
+    }
+    .info-card {
+        display: block;
+        text-align: center;
+
+    }
+    .usecase h2 {
+        font-size: 14px;
+    }
+    .usecase-header button {
+        width: 50%;
+        font-size: 11px;
+    }
+    .footer-bottom{
+        display: block;
+    }
+    .broker-footer {
+        font-size: 10px;
+    }
+}
+@media (max-width:1024px) {
+    .d-flex{
+        width: 125px !important;
+        height: 38px !important;
+    }
+    .header-img {
+        width: 170px;
+    }
+    .nav-item a {
+        font-size: 13px !important;
+    }
+    .navbar-toggler {
+        border: none !important; 
+        outline: none !important;
+        box-shadow: none !important;
+    }
+    
+    .navbar-toggler:focus, 
+    .navbar-toggler:active {
+        outline: none !important;
+        box-shadow: none !important;
+        border: none !important;
+    }
+    .landing-desktop-right {
+        margin-left: -312px;
+    }
+}
+
+@media (max-width:1024px) {
+    .landing-hero-body-div2 img{
+        width: 490px;
+        height: 633px;
+    } 
+    .landing-hero-body-div1 .content {
+        width: 500px;
+    }
+    .landing-hero-organic-left{
+        width: 100% !important;
+    }
+    .landing-hero-organic-left-img{
+        width: 100%;
+    }
+    .landing-hero-organic-left-box{
+        width: 100%;
+    }
+    .landing-hero-organic-right{
+        width: 100%;
+    }
+    .landing-hero-organic-right-div{
+        width: 70% !important;
+        margin-left: 18% !important;
+    } 
+    .landing-hero-organic-right-box {
+        width: 100%;
+    }
+    .tick-sym{
+        width: 40px;
+        height: 40px;
+    }
+    .tick-sym i {
+        font-size: 30px;
+        color: white;
+    }
+    .landing-hero-organic-right-img{
+        width: 186px !important;
+    }
+    .landing-house-hunt-left-box {
+        width: 430px;
+    }
+    .landing-house-hunt-right-box {
+        width: 120%;
+        transform: translate(131px, 170px);
+    }
+    .landing-house-hunt-right2-box {
+        margin-right: 60px;
+    }
+    .landing-chooseus-div1 {
+        height: 209px;
+    }
+    .landing-chooseus .landing-chooseus-div-img1 {
+        top: 41%;
+    }
+    .landing-chooseus .landing-chooseus-div-img2 {
+        top: 81%;
+    }
+}
+@media (max-width:768px) {
+    .landing-hero{
+            height: 922px;
+    }
+    .landing-hero-organic-center-div2 {
+        width: 100%;
+    }
+    .landing-hero-organic{
+        height: fit-content;
+        margin-block: 200px;
+    }
+    .landing-hero-organic-right {
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+    .landing-house-hunt-right-box {
+       
+        width: 80%;
+        transform: translate(70px, -30px);
+    }
+    .landing-house-hunt-left {
+        gap: 0px !important;
+    }
+    .landing-desktop-left {
+        width: 733px;
+    }
+    .landing-desktop-right {
+        margin-left: 34px;
+        margin-top: 100px;
+    }
+    .landing-house-hunt-right2-box {
+        margin-right: 460px;
+    }
+    .landing-data-header {
+        width: 700px;
+    }
+    .landing-house-expert-div2 {
+        margin-left: 0px !important;
+    }
+    .landing-chooseus-div{
+        margin-top: 450px;
+    }
+    .landing-chooseus .landing-chooseus-div-img1 {
+        position: absolute;
+        top: 2% !important;
+    }
+    .landing-chooseus-div-img2 {
+        position: absolute;
+        top: 15% !important;
+        left: 35% !important;
+    } 
+    .landing-chooseus .landing-chooseus-div-img3 {
+        position: absolute;
+        top: 19% !important;
+        left: 69%;
+    }
+    .landing-chooseus-div1 {
+        height: 120px;
+        margin-bottom: 20px;
+    }
+    .landing-data {
+        margin-block: 100px;
+    }
+.footer-body-div {
+    width: 100%;
+    display: grid;
+}
+
+}
+@media (max-width:426px) {
+    .landing-hero-search{
+        width: 382px ;
+    }
+    .landing-hero-body-div1 h2 {
+        width:354px;
+        height: 183px;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 57px;
+    }
+    .landing-hero-body-div1 {
+        gap: 0px !important;
+    }
+    .landing-hero-body-div1 .content {
+        width: 370px;
+    }
+    .landing-hero-body-div2 img {
+        width: 100%;
+        height: 539px;
+    }
+    .landing-hero-organic {
+        margin-block: 100px;
+    }
+    .landing-hero-organic-left {
+        width: 62% !important;
+        margin: auto;
+    }
+    .landing-hero-organic-center {
+        width: 100%;
+        height: fit-content;
+        display: flex
+    ;
+        flex-direction: column;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+    .landing-hero-organic-center-div3 {
+        width: 440px;
+    }
+    .landing-hero-organic-center-div3 img {
+        width: 100%;
+        height: 100%;
+    }
+    .landing-house-hunt-right-box {
+         display: block;
+    }
+    .landing-house-hunt-right{
+        margin-top: 20px;
+        width:108%;
+    }
+    .landing-house-hunt-right-div1{
+        margin-bottom: 20px;
+    }
+    .landing-house-hunt-right-button {
+        margin: 90px 51px;
+    }
+    .landing-house-hunt-right-box {
+        width: 80%;
+        transform: translate(50px, -30px);
+    }
+    .landing-desktop-left {
+        width: 100%;
+    }
+    .landing-desktop-right-heading {
+        width: 100%;
+    }
+    .landing-desktop-right-para {
+        width: 100%;
+    }
+    .landing-desktop-right-box {
+        width: 100% !important;
+    }
+    .landing-desktop-right-box-div {
+        width: 100%;
+    }
+    .landing-desktop-right-button {
+        width: 100%;
+    }
+    .landing-hero-organic-center-div3 {
+        width: 100%;
+    }
+    .landing-house-hunt-right {
+        margin-top: 20px;
+        width: 100%;
+    }
+    .landing-desktop-right {
+         margin-left: 0px ;
+    }
+    .landing-house-hunt-left-box {
+        width: 100%;
+    }
+    .landing-house-expert-div2-box-div1 {
+        margin-left: 0px;
+    }
+    .landing-house-expert-div2-box {
+        width: 100%;
+    }
+    .landing-chooseus-div {
+        margin-top: 355px;
+    }
+    .landing-chooseus .landing-chooseus-div-img2 {
+        position: absolute;
+        top: 9% !important;
+        width: 140px;
+        height: 171px;
+    }
+    .landing-chooseus .landing-chooseus-div-img1 {
+        position: absolute;
+        top: 30%;
+        width: 230px;
+        height: 260px;
+        left: 50%;
+  
+    }
+    .landing-chooseus .landing-chooseus-div-img3 {
+        position: absolute;
+        top: 13% !important;
+        left: 71%;
+    }
+    .landing-chooseus .landing-chooseus-div-img3 {
+        position: absolute;
+        top: 90%;
+        width: 190px;
+        height: 95px;
+    }
+    .landing-data-header {
+        width: 100%;
+            font-size: 28px;
+    }
+    .usecase-header button {
+                width: 190px;
+    }
+    .usecase h2 {
+        font-size: 22px;
+    }
+    .tab-container button {
+        font-size: 9px;
+    }    
+    .tab-container {
+        justify-content: space-between;
+        width: 100%;
+    }
+    .landing-touch-box {
+        width: 100%;
+        position: absolute;
+        right: 0px !important; 
+        padding: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+        color: white;
+    }
+    .footer-content {
+        width: 100%;
+        display: block !important;
+    }
+    .landing-unique {
+        margin-top: 100px;
+    }
+    .landing-unique-header {
+        font-size: 30px;
+    }
+    .landing-house-expert-div2{
+        margin-top: 50px;
+    }
+    .landing-house-expert-div2-header {
+        font-size: 40px;
+    }
+    .card {
+        margin: auto;
+    }
+    .landing-house-hunt-right2-box {
+        width: 100%;
+         margin-right: 0px;
+    }
+    .landing-house-hunt-left-heading {
+        font-size: 35px;
+    }
+    .landing-house-hunt-left-para {
+        font-size: 16px;
+    }
+    .landing-desktop-right-heading {
+        width: 100%;
+        font-size: 40px;
+    }
+    .landing-hero-organic-right {
+         margin-left: 0px !important;
+    }
+    .landing-estate-button {
+        margin-top: 20px;
+        width: 100%;
+    }
+}

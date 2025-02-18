@@ -1,7 +1,10 @@
 /* *,::before,::after{
     outline: 1px solid red;
 } */
-
+.row>* {
+   
+ padding-left: 0px !important;
+}
 *{
     padding:0px;
     margin: 0px;
@@ -13,7 +16,7 @@ header{
     position: sticky;
     /* width: 95%; */
     z-index: 2000;
-    height: 90px !important; 
+    height: 77px !important; 
 }
 .navbar{
     padding-inline: 40px;
@@ -1052,6 +1055,7 @@ left:10px
     padding: 20px 0;
     border: 1px solid #DADADA;
     margin-bottom: 100px;
+    border-inline: none !important;
 }
 
 .logo-track {

@@ -380,8 +380,8 @@
         width: 100%;
     }
     .landing-hero-body-div2 img {
-        width: 100%;
-        height: 539px;
+        width: 100% !important;
+        height: 420px !important;
     }
     .landing-hero-organic {
         margin-block: 100px;
@@ -414,7 +414,7 @@
         width:108%;
     }
     .landing-house-hunt-right-div1{
-        margin-bottom: 20px;
+        margin-bottom: 20px !important;
     }
     .landing-house-hunt-right-button {
         margin: 90px 51px;
@@ -458,10 +458,23 @@
         margin-left: 0px;
     }
     .landing-house-expert-div2-box {
-        width: 100%;
+        width: 95%;
+        margin-left: 10px;
     }
     .landing-chooseus-div {
         margin-top: 355px;
+    }
+    .landing-chooseus h2 {
+        font-size: 35px;
+    }
+    .landing-chooseus-div1 {
+        width: 95%;
+        margin-left: 20px;
+    }
+    .landing-chooseus-div-bottom {
+        width: 100%;
+        height: fit-content;
+        margin-left: 10px;
     }
     .landing-chooseus .landing-chooseus-div-img2 {
         position: absolute;
@@ -490,7 +503,7 @@
     }
     .landing-data-header {
         width: 100%;
-            font-size: 28px;
+            font-size: 25px;
     }
     .usecase-header button {
                 width: 190px;
@@ -528,7 +541,12 @@
         margin-top: 50px;
     }
     .landing-house-expert-div2-header {
-        font-size: 40px;
+        font-size: 35px;
+        text-align: center;
+    }
+    .landing-house-expert-div2-para {
+        font-size: 20px;
+        text-align: center;
     }
     .card {
         margin: auto;
@@ -542,6 +560,7 @@
     }
     .landing-house-hunt-left-para {
         font-size: 16px;
+        text-align: center;
     }
     .landing-desktop-right-heading {
         width: 100%;
@@ -567,7 +586,19 @@
     }
     .landing-hero-organic-left {
         width: 95% !important;
+        margin-left: 10px !important;
     }
+    .landing-house-hunt-left-heading {
+        font-size: 35px;
+        text-align: center;
+    }
+    .landing-house-hunt2 {
+        margin-top: 100px !important;
+    }
+    .landing-house-hunt-left-box {
+        margin-left: 10px;
+    }
+
 }
 
 @media (max-width:376px) {
@@ -575,7 +606,7 @@
         width: 100% !important;
     }
     .landing-hero-organic-left {
-        width: 100% !important;
+        width: 95% !important;
         margin: 7px;
     }
     .landing-hero-organic-center-div1 {
@@ -586,7 +617,7 @@
         font-size: 35px !important;
     }
     .landing-house-hunt-right-button {
-        margin: 90px 40px !important;
+        margin: 81px 38px !important;
     }
     .landing-house-hunt-right-box{
         transform: translate(35px, -30px);
@@ -637,41 +668,69 @@
         width: 95%;
     }
     .landing-hero-organic-left-img {
-        width: 95%;
+        width: 100%;
+    }
+    .landing-desktop-left-img1 {
+        transform: translateX(50px);
+    }
+    .landing-desktop-left-img2 {
+        transform: translateX(50px);
     }
         .landing-hero-organic-left-box {
-            width: 95%;
+            width: 100%;
         }
         .landing-hero-organic-center-div1 {
-            width: 95%;
+            width: 100%;
         }
         .landing-hero-organic-center-div2 {
-            width: 95%;
+            width: 100%;
         }
         .landing-hero-organic-center-div3 img {
-            width: 95%;
+            width: 100%;
         }
         .landing-hero-organic-right-box{
             width: 95%;
+        }
+        .landing-hero-organic-right p{
+            text-align: center;
+        }
+        .landing-house-hunt-left-box-div-icon {
+            width: 80px;
+        }
+        .landing-hero-organic-right-img {
+            width: 200px;
+            height: 80px;
+            margin-left: 48px;
         }
         .landing-house-hunt-left{
             width: 95%;
         }
         .landing-house-hunt-right {
-            width: 95%;
+            width: 100%;
         }
         .landing-desktop-left {
-            width: 95%;
+            width: 100%;
         }
         .landing-desktop-right {
-            width: 95%;
+            width: 100%;
         }
         .landing-desktop-right-heading {
-            width: 95%;
+            width: 100%;
+            text-align: center;
             font-size: 35px;
+        }
+        .landing-desktop-right-para{
+            text-align: center;
+        }
+        .landing-desktop-right-button {
+            justify-content: center;
         }
         .landing-desktop-right-box {
             width: 95% !important;
+            margin-left: 10px;
+        }
+        .landing-desktop-right-button {
+            margin-top: 100px !important;
         }
         .landing-desktop-right-box-div-icon {
             width: 216px;
@@ -683,16 +742,18 @@
             font-size: 11px;
         }
         .landing-house-hunt-right2 {
-         width: 95%;
+         width: 100%;
+         margin-top: 50px;
         }
         .landing-house-expert{
-            width: 95%;
+            width: 100%;
         }
         .landing-chooseus{
             width: 95%;
         }
-        .landing-data{
+        .landing-data {
             width: 95%;
+            margin-left: 10px;
         }
         
 }

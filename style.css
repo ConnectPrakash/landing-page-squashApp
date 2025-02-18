@@ -4,7 +4,12 @@
     font-family: "Plus Jakarta Sans", serif;
 }
 header{
-    height: 90px !important;    
+    height: 90px !important;   
+    top: 0;
+    position: sticky;
+    /* width: 95%; */
+    z-index: 2000;
+    height: 90px !important; 
 }
 .navbar{
     padding-inline: 40px;

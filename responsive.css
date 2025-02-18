@@ -2,6 +2,15 @@
     .header-img {
         width: 143px;
     }
+    .landing-hero-organic-center-div3 {
+        width: 308px !important;
+    }
+    .landing-house-hunt-right2 button {
+        width: 166px;
+    }
+    .landing-chooseus .landing-chooseus-div-img3 {
+        width: 158px !important;
+    }
     .navbar {
         padding-inline: 20px;
     }
@@ -178,6 +187,9 @@
     }
     .landing-touch-box{
         text-align: center;
+    }
+    .landing-hero-organic-center-div3 {
+        width: 300px !important;
     }
 }
 @media (max-width:1024px) {
@@ -542,6 +554,20 @@
         margin-top: 20px;
         width: 100%;
     }
+    .landing-hero-organic-center {
+        width: 95%;
+    }
+
+        .landing-hero-organic-left {
+            width: 95% !important;
+         margin: 0px !important;
+    }
+    .logo-slider {
+         margin-left: 0px !important; 
+    }
+    .landing-hero-organic-left {
+        width: 95% !important;
+    }
 }
 
 @media (max-width:376px) {
@@ -576,8 +602,12 @@
         top: 7%;
     }
     .landing-chooseus .landing-chooseus-div-img3 {
+        width: 170px;
         position: absolute;
         top: 19%;
+    }
+    .landing-house-hunt-right button {
+        width: 180px;
     }
     .landing-house-expert-div1-content {
         left: 50%;
@@ -610,38 +640,38 @@
         width: 95%;
     }
         .landing-hero-organic-left-box {
-            width: 97%;
+            width: 95%;
         }
         .landing-hero-organic-center-div1 {
-            width: 97%;
+            width: 95%;
         }
         .landing-hero-organic-center-div2 {
-            width: 97%;
+            width: 95%;
         }
         .landing-hero-organic-center-div3 img {
-            width: 97%;
+            width: 95%;
         }
         .landing-hero-organic-right-box{
-            width: 97%;
+            width: 95%;
         }
         .landing-house-hunt-left{
-            width: 97%;
+            width: 95%;
         }
         .landing-house-hunt-right {
-            width: 97%;
+            width: 95%;
         }
         .landing-desktop-left {
-            width: 97%;
+            width: 95%;
         }
         .landing-desktop-right {
-            width: 97%;
+            width: 95%;
         }
         .landing-desktop-right-heading {
-            width: 97%;
+            width: 95%;
             font-size: 35px;
         }
         .landing-desktop-right-box {
-            width: 97% !important;
+            width: 95% !important;
         }
         .landing-desktop-right-box-div-icon {
             width: 216px;
@@ -653,16 +683,16 @@
             font-size: 11px;
         }
         .landing-house-hunt-right2 {
-         width: 97%;
+         width: 95%;
         }
         .landing-house-expert{
-            width: 97%;
+            width: 95%;
         }
         .landing-chooseus{
-            width: 97%;
+            width: 95%;
         }
         .landing-data{
-            width: 97%;
+            width: 95%;
         }
         
 }

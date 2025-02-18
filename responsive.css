@@ -603,4 +603,68 @@
     .logo-track img {
         height: 25px;
     }
+    .testimonial-section{
+        width: 95%;
+    }
+    .landing-hero-organic-left-img {
+        width: 95%;
+    }
+        .landing-hero-organic-left-box {
+            width: 95%;
+        }
+        .landing-hero-organic-center-div1 {
+            width: 95%;
+        }
+        .landing-hero-organic-center-div2 {
+            width: 95%;
+        }
+        .landing-hero-organic-center-div3 img {
+            width: 95%;
+        }
+        .landing-hero-organic-right-box{
+            width: 95%;
+        }
+        .landing-house-hunt-left{
+            width: 95%;
+        }
+        .landing-house-hunt-right {
+            width: 95%;
+        }
+        .landing-desktop-left {
+            width: 95%;
+        }
+        .landing-desktop-right {
+            width: 95%;
+        }
+        .landing-desktop-right-heading {
+            width: 95%;
+            font-size: 35px;
+        }
+        .landing-desktop-right-box {
+            width: 95% !important;
+        }
+        .landing-desktop-right-box-div-icon {
+            width: 216px;
+        }
+        .landing-desktop-right-box-div-content h3 {
+            font-size: 20px;
+        }
+        .landing-desktop-right-box-div-content p {
+            font-size: 11px;
+        }
+        .landing-house-hunt-right2 {
+         width: 95%;
+        }
+        .landing-house-expert{
+            width: 95%;
+        }
+        .landing-chooseus{
+            width: 95%;
+        }
+        .landing-data{
+            width: 95%;
+        }
+        .landing-page{
+            width: 95%;
+        }
 }

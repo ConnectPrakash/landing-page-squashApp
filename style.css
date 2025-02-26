@@ -1,0 +1,725 @@
+/* *,::before,::after{
+    outline:1px solid red;
+} */
+
+.row>* {
+
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: "Plus Jakarta Sans", serif;
+}
+
+header {
+    height: 90px !important;
+    top: 0;
+    position: sticky;
+    /* width: 95%; */
+    z-index: 2000;
+    height: 77px !important;
+}
+
+.navbar {
+    padding-inline: 40px;
+}
+
+.header-img {
+    width: 201px;
+}
+
+.header-img img {
+    width: 100%;
+}
+
+.nav-item a {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    color: #3A4963 !important;
+}
+
+.nav-item .nav-link {
+    color: #3A4963;
+}
+
+.d-flex {
+    border: 1px solid #DADADA !important;
+    width: 100px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 50px;
+    padding: 5px;
+}
+
+.d-flex span {
+    width: 30px !important;
+    height: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.d-flex span i {
+    font-size: 22px;
+}
+
+.d-flex img {
+    width: 35px;
+    height: 35px;
+}
+
+@media (max-width:1024px) {
+    .nav-item a {
+        font-size: 13px;
+    }
+
+    .blog-hero-right-img {
+        right: -100px !important;
+    }
+
+    .blog-hero-right-body {
+        right: -436px;
+    }
+
+    .blog-useCase-box {
+        width: 220px !important;
+    }
+
+    .blog-useCase-box h3 {
+        font-size: 20px !important;
+    }
+}
+
+/* Blog-hero-left */
+.blog-hero {
+    padding-top: 150px;
+    position: relative;
+    height: 600px;
+    background-color: #E9F4FF;
+    overflow: hidden;
+}
+
+.blog-hero-left h2 {
+    color: #3A4963;
+    font-weight: 700;
+    font-size: 62px;
+
+}
+
+.blog-hero-left p {
+    margin-top: 30px;
+    color: #777777;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.blog-hero-left button {
+    font-weight: 500;
+    font-size: 18px;
+    padding: 10px 22px;
+    border-radius: 4px;
+    background-color: #E65252;
+    margin-top: 30px;
+    color: white;
+    border: none;
+    width: 244px
+}
+
+.blog-hero-right-img {
+    width: 979px;
+    height: 524px;
+    position: absolute;
+    right: 100px;
+    bottom: 0px;
+}
+
+.blog-hero-right-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.blog-hero-right-body {
+    position: absolute;
+    right: -400px;
+    width: 1000px;
+    bottom: 50px;
+}
+
+.blog-hero-right-body-flex {
+    display: flex;
+}
+
+.blog-hero-right-body-div {
+    width: 386px;
+    height: 119px;
+    background-color: #FFFFFF;
+    z-index: 2;
+    padding: 20px;
+    margin-right: 20px;
+}
+
+.blog-hero-right-body-div h3 {
+    color: #3A4963;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+
+.blog-hero-right-body-div p {
+    color: #565353;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.blog-hero-right-body-title {
+    color: #E65252;
+    text-align: center;
+    font-weight: 700;
+}
+
+@media (max-width:768px) {
+    .blog-hero-left h2 {
+        font-size: 51px;
+    }
+
+    .blog-hero {
+        padding-top: 80px !important;
+        height: 1026px;
+    }
+
+    .blog-hero-right-img {
+        right: -20px !important;
+    }
+
+    .blog-hero-right-body {
+        right: -224px;
+        width: 140%;
+    }
+}
+
+@media (max-width:426px) {
+    .blog-hero-left {
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .blog-hero-left h2 {
+        font-size: 40px !important;
+        text-align: center !important;
+    }
+
+    .blog-hero-left p {
+        text-align: justify;
+    }
+
+    .blog-hero-left button {
+        margin: auto;
+    }
+
+    .blog-hero-right-img {
+        right: -40px !important;
+    }
+
+    .blog-hero-right-img {
+        width: 150%;
+    }
+}
+
+
+/* blog-useCase */
+.blog-useCase {
+    margin-top: 50px;
+}
+
+.blog-useCase-head {
+    color: #3A4963;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.blog-useCase-box {
+    margin-top: 40px;
+    width: 305px;
+    height: 190px;
+    position: relative;
+    border: 1px solid #DADADA;
+    border-radius: 12px;
+}
+
+.blog-useCase-box h3 {
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    color: #3A4963;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.blog-useCase-box .icon {
+    display: none;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #6ee7b7;
+    color: white;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+
+}
+
+.blog-useCase-box img {
+    width: 13px;
+    height: 13px;
+}
+
+@media (max-width:1024px) {
+    .blog-useCase-box {
+        display: flex;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+}
+
+/* Blog Trending */
+.blog-Trending {
+    margin-top: 100px;
+
+}
+
+.blog-Trending-head {
+    color: #E65252;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.blog-Trending-box-img {
+    width: 225px;
+    height: 197px;
+    border-radius: 10px;
+}
+
+.blog-Trending-box-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.blog-Trending-box {
+    width: 99%;
+    height: 217px;
+    display: flex;
+    gap: 16px;
+    border: 1px solid #DADADA;
+    border-radius: 12px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.blog-Trending-box-content-date {
+    color: #565353;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.blog-Trending-box-content {
+    width: 362px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.blog-Trending-box-content h3 {
+    color: #3A4963;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+
+}
+
+.blog-Trending-box-content-content {
+    color: #696868;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+@media (max-width:1024px) {
+    .blog-Trending-box-content h3 {
+        font-size: 17px;
+    }
+}
+
+
+/* blog-househunt */
+.blog-househunt {
+    background-color: #E9F4FF;
+    margin-top: 100px;
+    padding-top: 50px;
+    height: 570px;
+}
+
+.blog-househunt-right {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.blog-househunt-right img {
+    position: absolute;
+    width: 130%;
+    right: -50px;
+}
+
+.blog-househunt-left-header {
+    color: #E65252;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.blog-househunt-left {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 70px;
+}
+
+.blog-househunt-left-box {
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+}
+
+.blog-househunt-left-box h3 {
+    font-family: "Poppins", serif !important;
+    color: #565353;
+    font-size: 36px;
+    font-weight: 600px;
+}
+
+.blog-househunt-left-box-date {
+    color: #565353;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: "Poppins", serif !important;
+
+}
+
+.blog-househunt-left-box-content {
+    color: #565353;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: "Poppins", serif !important;
+}
+
+.blog-househunt-left-box button {
+    width: 253px;
+    padding: 10px 22px;
+    background-color: #E65252;
+    border: none;
+    color: white;
+    border-radius: 4px;
+}
+
+/* blog-recent */
+.blog-recent {
+    margin-top: 100px;
+
+}
+
+.blog-recent-left {
+    width: 98%;
+}
+
+.blog-recent-left-header {
+    color: #E65252;
+    font-weight: 700;
+    font-size: 32px;
+    margin-block: 20px;
+}
+
+.blog-recent-right-header {
+    color: #E65252;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.blog-recent-right {
+    width: 90%;
+    margin-left: 10%;
+    height: 426px;
+}
+
+.blog-recent-right-table {
+    margin-top: 50px;
+}
+
+.blog-recent-right-table-head {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #DADADA;
+}
+
+.blog-recent-right-table-head p {
+    color: #3A4963;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.blog-recent-right-table-content-div {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #DADADA;
+    height: 45px
+}
+
+.blog-recent-right-table-content-div p {
+    font-weight: 400;
+    font-size: 14px;
+    color: #565353;
+    font-family: "Poppins", serif !important;
+
+}
+
+
+/* usecase */
+.usecase {
+    padding: 40px 20px;
+    text-align: center;
+    margin-top: 100px;
+}
+.usecase-header{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.usecase h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 20px;
+}
+.usecase-header button{
+    background-color: #E65252;
+    width:252px;
+    height: 45px;
+    color:white;
+}
+
+.usecase .scroll-container {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    gap: 15px;
+    padding-bottom: 15px;
+    scrollbar-width: none; /* Hide default scrollbar */
+}
+
+.usecase .scroll-container::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for Chrome, Safari */
+}
+
+.usecase .card {
+    flex: 0 0 auto;
+    padding:10px;
+    width: 390px;
+    height: 450px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.usecase .card img {
+    width: 100%;
+    height: 242px;
+    object-fit: cover;
+}
+
+.usecase .card-body {
+    text-align: left;
+    padding: 15px;
+}
+
+.usecase .card-body small {
+    color: gray;
+    display: block;
+    margin-bottom: 5px;
+}
+.usecase .card-body .card-title{
+    color:#565353;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+}
+.usecase .btn-danger {
+    background-color: #dc3545;
+    border: none;
+    padding: 6px 12px;
+    font-size: 14px;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+    justify-content: center;
+}
+.usecase .btn-danger img{
+    width: 13px;
+    height: 13px;
+}
+.usecase .scroll-bar {
+    width: 40%;
+    height: 5px;
+    background-color: #ddd;
+    border-radius: 5px;
+    position: relative;
+    margin-top: 15px;
+}
+
+.usecase .scroll-thumb {
+    width: 50px;
+    height: 5px;
+    background-color: #dc3545;
+    border-radius: 5px;
+    position: absolute;
+    left: 0;
+    transition: left 0.3s ease-in-out;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .usecase .card {
+        min-width: 240px;
+    }
+    .usecase .card img {
+        height: 150px;
+    }
+    .usecase .scroll-thumb {
+        width: 40px;
+    }
+}
+
+@media (max-width: 480px) {
+    .usecase .card {
+        min-width: 200px;
+    }
+    .usecase .card img {
+        height: 130px;
+    }
+    .usecase .scroll-thumb {
+        width: 30px;
+    }
+}
+
+
+/* footer */
+/* Footer */
+.footer {
+    background-color: #1C2536;
+    color: white;
+}
+.footer-logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+.footer-logo .logo-icon img {
+    width: 24px;
+}
+.footer a {
+    color: #bbb;
+    text-decoration: none;
+}
+.footer a:hover {
+    color: white;
+}
+.footer h5 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.footer ul {
+    padding: 0;
+}
+.footer ul li {
+    margin-bottom: 8px;
+}
+.social-icons a {
+    font-size: 20px;
+    margin-right: 10px;
+    color: white;
+    transition: 0.3s;
+}
+.social-icons a:hover {
+    color: #007bff;
+}
+.footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    margin-top: 20px;
+    padding-top: 20px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.footer-bottom ul {
+    padding: 0;
+}
+.footer-bottom ul li {
+    display: inline;
+    margin-right: 15px;
+}
+.footer-bottom p{
+    color:#FFFFFF;
+}
+/* footer */
+.footer {
+    margin-top: 50px;
+    padding: 20px;
+    font-family: "Poppins", serif !important;
+
+
+}
+.footer-body-div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.broker-footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.footer-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px
+}
+.footer-body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.list-unstyled li {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-between;
+}

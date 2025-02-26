@@ -202,7 +202,7 @@ header {
     }
     .blog-hero {
         padding-top: 80px !important;
-        height: 890px;
+        height: 1100px;
     }
 
     .blog-hero-right-img {
@@ -212,6 +212,11 @@ header {
     .blog-hero-right-body {
         right: -224px;
         width: 140%;
+    }
+    .blog-hero-left p {
+       
+        font-weight: 500;
+        line-height: 30px;
     }
 }
 
@@ -248,9 +253,11 @@ header {
     .blog-hero-right-body-title {
         text-align: start !important;
     }
+
 }
 
 @media (max-width:320px) {
+ 
     .blog-hero-left h2 {
         font-size: 30px !important;
     }
